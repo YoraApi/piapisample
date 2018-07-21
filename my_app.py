@@ -7,10 +7,10 @@ cors = CORS(app, resources={r"/*": {"origins": "*"}})
 mysql = MySQL()
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'yoratech_admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'Yora@335'
-app.config['MYSQL_DATABASE_DB'] = 'yoratech_flaskapi_sample'
-app.config['MYSQL_DATABASE_HOST'] = '45.114.79.179'
+app.config['MYSQL_DATABASE_USER'] = ''
+app.config['MYSQL_DATABASE_PASSWORD'] = ''
+app.config['MYSQL_DATABASE_DB'] = ''
+app.config['MYSQL_DATABASE_HOST'] = ''
 
 mysql.init_app(app)
 
